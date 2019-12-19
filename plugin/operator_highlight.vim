@@ -48,6 +48,7 @@ fun! s:IgnoreFiletypeIfNotSet( file_type )
 endfunction
 
 call s:IgnoreFiletypeIfNotSet('help')
+call s:IgnoreFiletypeIfNotSet('hide')
 call s:IgnoreFiletypeIfNotSet('markdown')
 call s:IgnoreFiletypeIfNotSet('qf') " This is for the quickfix window
 call s:IgnoreFiletypeIfNotSet('conque_term')
